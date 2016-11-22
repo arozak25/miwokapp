@@ -8,28 +8,28 @@
     tools:context="com.example.android.miwok.MainActivity">
 
     <TextView
-        style="@style/CategoryStyles"
-        android:text="Numbers"
         android:id="@+id/number"
-        android:background="@color/category_numbers" />
+        style="@style/CategoryStyles"
+        android:background="@color/category_numbers"
+        android:text="Numbers" />
 
     <TextView
-        style="@style/CategoryStyles"
-        android:text="Family Members"
         android:id="@+id/family"
-        android:background="@color/category_family"/>
+        style="@style/CategoryStyles"
+        android:background="@color/category_family"
+        android:text="Family Members"/>
 
     <TextView
-        style="@style/CategoryStyles"
-        android:text="Colors"
         android:id="@+id/colors"
-        android:background="@color/category_colors"/>
+        style="@style/CategoryStyles"
+        android:background="@color/category_colors"
+        android:text="Colors"/>
 
     <TextView
-        style="@style/CategoryStyles"
-        android:text="Phrases"
         android:id="@+id/phrases"
-        android:background="@color/category_phrases"/>
+        style="@style/CategoryStyles"
+        android:background="@color/category_phrases"
+        android:text="Phrases"/>
 
 
 </LinearLayout>
